@@ -13,12 +13,22 @@ module.exports = {
         test: /\.css$/i,
         use: ['style-loader', 'css-loader'],
       },
+      {
+        test: /\.html$/,
+        use: ['html-loader']
+      },
+      {
+        test: /\.(png|jpg|gif|svg|eot|ttf|woff)$/,
+        type: 'asset/resource'
+      }
     ],
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
     clean: true,
+    assetModuleFilename: 'src/images/[name].[ext]'
+
   },
   devtool: 'inline-source-map',
   plugins: [new HtmlWebpackPlugin(
