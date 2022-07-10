@@ -18,8 +18,8 @@ module.exports = {
         use: ['html-loader']
       },
       {
-        test: /\.(png|jpg|gif|svg|eot|ttf|woff)$/,
-        type: 'asset/resource'
+        test: /\.(png)$/,
+        type: 'file-loader'
       }
     ],
   },

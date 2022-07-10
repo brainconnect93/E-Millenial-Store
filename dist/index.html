@@ -1,98 +1,240 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/d6cd3c7604.js" crossorigin="anonymous"></script>
-    <title>E-Millenial store</title>
-<script defer src="bundle.js"></script></head>
-<body>
-    <header>
-        <div class="head-img">
-            <img src="c44f3b9f3fbcb52dc528.svg" alt="" id="my-img">
-        </div>
-
-        <nav class="nav-menu">
-            <ul class="nav-items">
-                <li class="nav-links"><a href="#" class="links">Intro</a></li>
-                <li class="nav-links"><a href="#" class="links">About</a></li>
-                <li class="nav-links"><a href="#" class="links">Shop</a></li>
-            </ul>
-        </nav>
-        <div class="cart">
-            <img src="35e4064534b65ab7ef20.png" alt="cart" id="">
-            <span class="cart-count"></span>
-        </div>
-    </header>
-
-    <main class="main-cont">
-      <section class="head-section">
-        <h1 class="head-text">the e-millenial store</h1>
-        <img src="1ec98e1317bd058d2a16.png" alt="phone" id="my-img1">
-        <button type="button" class="main-btn">shop now</button>
-      </section>
-
-      <section class="about-section">
-        <div class="about-para">
-            <p class="about-text">
-                E-Millenial Store is an hypothetical online store for gadgets
-                we believe every 'Millenial' or 'Gen-Z' should have today.
-                We've got mobile phones, laptops, smartwatches and other 
-                gadgets. Explore all our gadgets and choose the ones that
-                suit you.
-            </p>
-        </div>
-      </section>
-
-      <section class="shop-section">
-        <div class="shop-cont">
-            <h1 class="shop-text">our gadgets</h1>
-            <div class="shop-box">
-                <div class="shop-item">
-                    <img src="e4dcaecf4f8ff104da46.png" alt="samsungtv" id="my-img">
-                    <h1>samsung tv</h1>
-                    <button type="button" class="btn">add to cart</button>
-                </div>
-
-                <div class="shop-item">
-                    <img src="62fc15d66fe6dec53c89.png" alt="pixel" id="my-img">
-                    <h1>pixel 4a</h1>
-                    <button type="button" class="btn">add to cart</button>
-                </div>
-
-                <div class="shop-item">
-                    <img src="e0552bfc202b16f130bc.png" alt="ps5" id="my-img">
-                    <h1>ps 5</h1>
-                    <button type="button" class="btn">add to cart</button>
-                </div>
-
-                <div class="shop-item">
-                    <img src="4918ec0eff214cec930e.png" alt="macbook" id="my-img">
-                    <h1>macbook air</h1>
-                    <button type="button" class="btn">add to cart</button>
-                </div>
-
-                <div class="shop-item">
-                    <img src="ec2c7ac512aa9bcf37ba.png" alt="apple watch" id="my-img">
-                    <h1>apple watch</h1>
-                    <button type="button" class="btn">add to cart</button>
-                </div>
-
-                <div class="shop-item">
-                    <img src="36602f57b43833e64053.png" alt="air pods" id="my-img">
-                    <h1>air pods</h1>
-                    <button type="button" class="btn">add to cart</button>
-                </div>
-            </div>
-        </div>
-      </section>
-    </main>
-
-    <footer class="foot-section">
-        <img src="c44f3b9f3fbcb52dc528.svg" alt="logo">
-        <p class="foot-text">Designed and Crafted by a Frontend Ninja AFOLABI AKOREDE</p>
-    </footer>
-</body>
-</html>
+<head><script defer src="bundle.js"></script></head>Html Webpack Plugin:
+<pre>
+  Error: Child compilation failed:
+  Module not found: Error: No parser registered for file-loader
+  ModuleNotFoundError: Module not found: Error: No parser registered for file-loader
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\Compilation.js:2016:28
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:798:13
+      at eval (eval at create (C:\Users\HP\Desktop\E-Millenial-Store\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:10:1)
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:270:22
+      at eval (eval at create (C:\Users\HP\Desktop\E-Millenial-Store\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:9:1)
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:589:15
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:116:11
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:612:8
+      at done (C:\Users\HP\Desktop\E-Millenial-Store\node_modules\neo-async\async.js:2931:13)
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:1034:14
+  Module not found: Error: No parser registered for file-loader
+  ModuleNotFoundError: Module not found: Error: No parser registered for file-loader
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\Compilation.js:2016:28
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:798:13
+      at eval (eval at create (C:\Users\HP\Desktop\E-Millenial-Store\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:10:1)
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:270:22
+      at eval (eval at create (C:\Users\HP\Desktop\E-Millenial-Store\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:9:1)
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:589:15
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:116:11
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:623:8
+      at NormalModuleFactory.resolveRequestArray (C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:988:34)
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:615:11
+  Module not found: Error: No parser registered for file-loader
+  ModuleNotFoundError: Module not found: Error: No parser registered for file-loader
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\Compilation.js:2016:28
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:798:13
+      at eval (eval at create (C:\Users\HP\Desktop\E-Millenial-Store\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:10:1)
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:270:22
+      at eval (eval at create (C:\Users\HP\Desktop\E-Millenial-Store\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:9:1)
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:589:15
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:116:11
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:623:8
+      at NormalModuleFactory.resolveRequestArray (C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:988:34)
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:615:11
+  Module not found: Error: No parser registered for file-loader
+  ModuleNotFoundError: Module not found: Error: No parser registered for file-loader
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\Compilation.js:2016:28
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:798:13
+      at eval (eval at create (C:\Users\HP\Desktop\E-Millenial-Store\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:10:1)
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:270:22
+      at eval (eval at create (C:\Users\HP\Desktop\E-Millenial-Store\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:9:1)
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:589:15
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:116:11
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:623:8
+      at NormalModuleFactory.resolveRequestArray (C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:988:34)
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:615:11
+  Module not found: Error: No parser registered for file-loader
+  ModuleNotFoundError: Module not found: Error: No parser registered for file-loader
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\Compilation.js:2016:28
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:798:13
+      at eval (eval at create (C:\Users\HP\Desktop\E-Millenial-Store\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:10:1)
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:270:22
+      at eval (eval at create (C:\Users\HP\Desktop\E-Millenial-Store\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:9:1)
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:589:15
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:116:11
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:623:8
+      at NormalModuleFactory.resolveRequestArray (C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:988:34)
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:615:11
+  Module not found: Error: No parser registered for file-loader
+  ModuleNotFoundError: Module not found: Error: No parser registered for file-loader
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\Compilation.js:2016:28
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:798:13
+      at eval (eval at create (C:\Users\HP\Desktop\E-Millenial-Store\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:10:1)
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:270:22
+      at eval (eval at create (C:\Users\HP\Desktop\E-Millenial-Store\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:9:1)
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:589:15
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:116:11
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:623:8
+      at NormalModuleFactory.resolveRequestArray (C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:988:34)
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:615:11
+  Module not found: Error: No parser registered for file-loader
+  ModuleNotFoundError: Module not found: Error: No parser registered for file-loader
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\Compilation.js:2016:28
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:798:13
+      at eval (eval at create (C:\Users\HP\Desktop\E-Millenial-Store\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:10:1)
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:270:22
+      at eval (eval at create (C:\Users\HP\Desktop\E-Millenial-Store\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:9:1)
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:589:15
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:116:11
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:623:8
+      at NormalModuleFactory.resolveRequestArray (C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:988:34)
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:615:11
+  Module not found: Error: No parser registered for file-loader
+  ModuleNotFoundError: Module not found: Error: No parser registered for file-loader
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\Compilation.js:2016:28
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:798:13
+      at eval (eval at create (C:\Users\HP\Desktop\E-Millenial-Store\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:10:1)
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:270:22
+      at eval (eval at create (C:\Users\HP\Desktop\E-Millenial-Store\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:9:1)
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:589:15
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:116:11
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:623:8
+      at NormalModuleFactory.resolveRequestArray (C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:988:34)
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:615:11
+  Module not found: Error: No parser registered for file-loader
+  ModuleNotFoundError: Module not found: Error: No parser registered for file-loader
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\Compilation.js:2016:28
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:798:13
+      at eval (eval at create (C:\Users\HP\Desktop\E-Millenial-Store\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:10:1)
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:270:22
+      at eval (eval at create (C:\Users\HP\Desktop\E-Millenial-Store\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:9:1)
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:589:15
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:116:11
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:623:8
+      at NormalModuleFactory.resolveRequestArray (C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:988:34)
+      at C:\Users\HP\Desktop\E-Millenial-Store\node_modules\webpack\lib\NormalModuleFactory.js:615:11
+  
+  - Compilation.js:2016 
+    [E-Millenial-Store]/[webpack]/lib/Compilation.js:2016:28
+  
+  - NormalModuleFactory.js:798 
+    [E-Millenial-Store]/[webpack]/lib/NormalModuleFactory.js:798:13
+  
+  
+  - NormalModuleFactory.js:270 
+    [E-Millenial-Store]/[webpack]/lib/NormalModuleFactory.js:270:22
+  
+  
+  - NormalModuleFactory.js:589 
+    [E-Millenial-Store]/[webpack]/lib/NormalModuleFactory.js:589:15
+  
+  - NormalModuleFactory.js:116 
+    [E-Millenial-Store]/[webpack]/lib/NormalModuleFactory.js:116:11
+  
+  - NormalModuleFactory.js:612 
+    [E-Millenial-Store]/[webpack]/lib/NormalModuleFactory.js:612:8
+  
+  - async.js:2931 done
+    [E-Millenial-Store]/[neo-async]/async.js:2931:13
+  
+  - NormalModuleFactory.js:1034 
+    [E-Millenial-Store]/[webpack]/lib/NormalModuleFactory.js:1034:14
+  
+  - Module not found: Error: No parser registered for file-loader
+  
+  - ModuleNotFoundError: Module not found: Error: No parser registered for file-loader
+  
+  - Compilation.js:2016 
+    [E-Millenial-Store]/[webpack]/lib/Compilation.js:2016:28
+  
+  - NormalModuleFactory.js:798 
+    [E-Millenial-Store]/[webpack]/lib/NormalModuleFactory.js:798:13
+  
+  
+  - NormalModuleFactory.js:270 
+    [E-Millenial-Store]/[webpack]/lib/NormalModuleFactory.js:270:22
+  
+  
+  - NormalModuleFactory.js:589 
+    [E-Millenial-Store]/[webpack]/lib/NormalModuleFactory.js:589:15
+  
+  - NormalModuleFactory.js:116 
+    [E-Millenial-Store]/[webpack]/lib/NormalModuleFactory.js:116:11
+  
+  - NormalModuleFactory.js:623 
+    [E-Millenial-Store]/[webpack]/lib/NormalModuleFactory.js:623:8
+  
+  - NormalModuleFactory.js:988 NormalModuleFactory.resolveRequestArray
+    [E-Millenial-Store]/[webpack]/lib/NormalModuleFactory.js:988:34
+  
+  - NormalModuleFactory.js:615 
+    [E-Millenial-Store]/[webpack]/lib/NormalModuleFactory.js:615:11
+  
+  - Module not found: Error: No parser registered for file-loader
+  
+  - ModuleNotFoundError: Module not found: Error: No parser registered for file-loader
+  
+  - Compilation.js:2016 
+    [E-Millenial-Store]/[webpack]/lib/Compilation.js:2016:28
+  
+  - NormalModuleFactory.js:798 
+    [E-Millenial-Store]/[webpack]/lib/NormalModuleFactory.js:798:13
+  
+  
+  - NormalModuleFactory.js:270 
+    [E-Millenial-Store]/[webpack]/lib/NormalModuleFactory.js:270:22
+  
+  
+  - NormalModuleFactory.js:589 
+    [E-Millenial-Store]/[webpack]/lib/NormalModuleFactory.js:589:15
+  
+  - NormalModuleFactory.js:116 
+    [E-Millenial-Store]/[webpack]/lib/NormalModuleFactory.js:116:11
+  
+  - NormalModuleFactory.js:623 
+    [E-Millenial-Store]/[webpack]/lib/NormalModuleFactory.js:623:8
+  
+  - NormalModuleFactory.js:988 NormalModuleFactory.resolveRequestArray
+    [E-Millenial-Store]/[webpack]/lib/NormalModuleFactory.js:988:34
+  
+  - NormalModuleFactory.js:615 
+    [E-Millenial-Store]/[webpack]/lib/NormalModuleFactory.js:615:11
+  
+  - Module not found: Error: No parser registered for file-loader
+  
+  - ModuleNotFoundError: Module not found: Error: No parser registered for file-loader
+  
+  - Compilation.js:2016 
+    [E-Millenial-Store]/[webpack]/lib/Compilation.js:2016:28
+  
+  - NormalModuleFactory.js:798 
+    [E-Millenial-Store]/[webpack]/lib/NormalModuleFactory.js:798:13
+  
+  
+  - NormalModuleFactory.js:270 
+    [E-Millenial-Store]/[webpack]/lib/NormalModuleFactory.js:270:22
+  
+  
+  - NormalModuleFactory.js:589 
+    [E-Millenial-Store]/[webpack]/lib/NormalModuleFactory.js:589:15
+  
+  - NormalModuleFactory.js:116 
+    [E-Millenial-Store]/[webpack]/lib/NormalModuleFactory.js:116:11
+  
+  - NormalModuleFactory.js:623 
+    [E-Millenial-Store]/[webpack]/lib/NormalModuleFactory.js:623:8
+  
+  - NormalModuleFactory.js:988 NormalModuleFactory.resolveRequestArray
+    [E-Millenial-Store]/[webpack]/lib/NormalModuleFactory.js:988:34
+  
+  - NormalModuleFactory.js:615 
+    [E-Millenial-Store]/[webpack]/lib/NormalModuleFactory.js:615:11
+  
+  - Module not found: Error: No parser registered for file-loader
+  
+  - ModuleNotFoundError: Module not found: Error: No parser registered for file-loader
+  
+  - Compilation.js:2016 
+    [E-Millenial-Store]/[webpack]/lib/Compilation.js:2016:28
+  
+  - NormalModuleFactory.js:798 
+    [E-Millenial-Store]/[webpack]/lib/NormalModuleFactory.js:798:13
+  
+  
+</pre>
